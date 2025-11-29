@@ -72,6 +72,7 @@ sudo systemctl restart ssh
 ```
 ssh-hardening-lab/
 ├── README.md
+├── LICENSE
 ├── configs/
 │   └── sshd_config
 ├── screenshots/
