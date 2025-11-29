@@ -1,0 +1,26 @@
+# SSH Listening Port
+Port 2222
+
+# Authentication Settings
+PermitRootLogin no
+PasswordAuthentication no
+PubkeyAuthentication yes
+
+# User restrictions
+AllowUsers itadmin
+
+# Disable GUI forwarding
+X11Forwarding no
+
+# Loggin and security
+LogLevel VERBOSE
+ClientAliveInterval 300
+ClientAliveCountMax 2
+
+# Default settings (keep)
+UsePAM yes
+PrintMotd no
+AcceptEnv LANG LC_*
+Subsystem sftp /usr/lib/openssh/sftp-server
+
+

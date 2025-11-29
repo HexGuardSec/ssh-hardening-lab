@@ -1,0 +1,7 @@
+[sshd]
+enabled = true
+port = 2222
+logpath = %(sshd_log)s
+bantime = 600
+findtime = 300
+maxretry = 3
