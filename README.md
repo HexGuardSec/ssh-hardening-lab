@@ -1,5 +1,9 @@
 # SSH Hardening Lab
 
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+![Category](https://img.shields.io/badge/Category-SSH%20Hardening-blue)
+![Level](https://img.shields.io/badge/Level-Junior%20Engineer-yellow)
+
 **Hardened SSH setup on Ubuntu Server with key-based authentication, custom port, and fail2ban protection.**
 
 ---
